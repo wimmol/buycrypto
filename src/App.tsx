@@ -23,7 +23,15 @@ function App() {
   }, []);
   if (!isUpToDate) {
     return (
-      <Box h="100vh" position="absolute" top={0} left={0} overflow="hidden">
+      <Box
+        h="100vh"
+        w="100%"
+        position="absolute"
+        top={0}
+        left={0}
+        overflow="hidden"
+        bg="primary"
+      >
         <Lottie
           animationData={lottieJson}
           loop={false}

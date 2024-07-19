@@ -1,9 +1,6 @@
 const routes = {
-  onboarding: '/onboarding',
-  home: '/home',
-  wallet: '/home/wallet',
-  swap: '/home/swap',
-  quiz: '/quiz',
+  root: '/',
+  vouchers: '/vouchers',
 };
 
 export default routes;
